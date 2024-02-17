@@ -94,3 +94,29 @@ print(bir,iki,uc,sep='')
 print(bir,iki,uc,sep='* - *',end='&\n')
 print(bir,iki,uc,sep='')
 print(bir,iki,uc,sep='')
+
+text1 = "I bought"
+text2 = "kg. of apple this morning"
+amount = 6
+text3 = text1 + " " + str(amount) + " " + text2
+print(text1, amount, text2 )
+
+print('C:\\north pole\noise_penguins.txt')
+print('----------')
+print('first', 'second', 'third', sep="\t")
+
+text= 'Bu\gun\ben\neden\taksiye\bindim'
+print(text)
+
+print('Bu\gun\\ben\\neden\\taksiye\\bindim')
+
+print(r'Bu\gun\ben\neden\taksiye\bindim')
+
+
+print(True and True)
+print(True and False)
+print(bool(False))
+print(bool(''))
+print(1 and 0)
+print(not False)
+print(not True)
